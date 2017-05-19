@@ -1,7 +1,5 @@
 <!--index.wxml-->
-<text>{{ hello_onload }}</text>
-<text>{{ hello_onshow }}</text>
-<text>{{ hello_onready }}</text>
-<text>{{ hello_onhide }}</text>
-<text>{{ hello_onunload }}</text>
+<block wx:for="{{ hellos }}">
+  <text>{{ item }}</text>
+</block>
 <navigator url="/pages/page1/page1">導向至Page1</navigator>
