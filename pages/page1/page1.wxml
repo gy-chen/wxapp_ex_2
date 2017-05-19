@@ -1,0 +1,4 @@
+<!--pages/page1/page1.wxml-->
+<block wx:for="{{[1, 2, 3]}}">
+  <view> {{ index }}: {{ item }} </view>
+</block>
